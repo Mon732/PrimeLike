@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: c833571b1c45e2445ab5a2676c82028b
+timeCreated: 1475862161
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: abdomen
+    100002: abdomen2
+    100004: chest
+    100006: Crane
+    100008: Cylinder
+    100010: CylinderRelease
+    100012: EjectorRod
+    100014: G2FSimplifiedEyes_394
+    100016: Genesis2Male
+    100018: Genesis2Male.001
+    100020: Hammer
+    100022: head
+    100024: hip
+    100026: lBigToe
+    100028: lBigToe_end
+    100030: lCarpal1
+    100032: lCarpal2
+    100034: lCollar
+    100036: lEye
+    100038: lEye_end
+    100040: lFoot
+    100042: lForeArm
+    100044: lHand
+    100046: lIndex1
+    100048: lIndex2
+    100050: lIndex3
+    100052: lIndex3_end
+    100054: lMid1
+    100056: lMid2
+    100058: lMid3
+    100060: lMid3_end
+    100062: lowerJaw
+    100064: lPectoral
+    100066: lPectoral_end
+    100068: lPinky1
+    100070: lPinky2
+    100072: lPinky3
+    100074: lPinky3_end
+    100076: lRing1
+    100078: lRing2
+    100080: lRing3
+    100082: lRing3_end
+    100084: lShin
+    100086: lShldr
+    100088: lSmallToe1
+    100090: lSmallToe1_end
+    100092: lSmallToe2
+    100094: lSmallToe2_end
+    100096: lSmallToe3
+    100098: lSmallToe3_end
+    100100: lSmallToe4
+    100102: lSmallToe4_end
+    100104: lThigh
+    100106: lThumb1
+    100108: lThumb2
+    100110: lThumb3
+    100112: lThumb3_end
+    100114: lToe
+    100116: neck
+    100118: pelvis
+    100120: rBigToe
+    100122: rBigToe_end
+    100124: rCarpal1
+    100126: rCarpal2
+    100128: rCollar
+    100130: Revolver
+    100132: rEye
+    100134: rEye_end
+    100136: rFoot
+    100138: rForeArm
+    100140: rHand
+    100142: rIndex1
+    100144: rIndex2
+    100146: rIndex3
+    100148: rIndex3_end
+    100150: rMid1
+    100152: rMid2
+    100154: rMid3
+    100156: rMid3_end
+    100158: rPectoral
+    100160: rPectoral_end
+    100162: rPinky1
+    100164: rPinky2
+    100166: rPinky3
+    100168: rPinky3_end
+    100170: rRing1
+    100172: rRing2
+    100174: rRing3
+    100176: rRing3_end
+    100178: rShin
+    100180: rShldr
+    100182: rSmallToe1
+    100184: rSmallToe1_end
+    100186: rSmallToe2
+    100188: rSmallToe2_end
+    100190: rSmallToe3
+    100192: rSmallToe3_end
+    100194: rSmallToe4
+    100196: rSmallToe4_end
+    100198: rThigh
+    100200: rThumb1
+    100202: rThumb2
+    100204: rThumb3
+    100206: rThumb3_end
+    100208: rToe
+    100210: tongue01
+    100212: tongue02
+    100214: tongue03
+    100216: tongue04
+    100218: tongue05
+    100220: tongueBase
+    100222: tongueTip
+    100224: tongueTip_end
+    100226: Trigger
+    100228: upperJaw
+    100230: upperJaw_end
+    100232: //RootNode
+    100234: Genesis2Male_001
+    400000: abdomen
+    400002: abdomen2
+    400004: chest
+    400006: Crane
+    400008: Cylinder
+    400010: CylinderRelease
+    400012: EjectorRod
+    400014: G2FSimplifiedEyes_394
+    400016: Genesis2Male
+    400018: Genesis2Male.001
+    400020: Hammer
+    400022: head
+    400024: hip
+    400026: lBigToe
+    400028: lBigToe_end
+    400030: lCarpal1
+    400032: lCarpal2
+    400034: lCollar
+    400036: lEye
+    400038: lEye_end
+    400040: lFoot
+    400042: lForeArm
+    400044: lHand
+    400046: lIndex1
+    400048: lIndex2
+    400050: lIndex3
+    400052: lIndex3_end
+    400054: lMid1
+    400056: lMid2
+    400058: lMid3
+    400060: lMid3_end
+    400062: lowerJaw
+    400064: lPectoral
+    400066: lPectoral_end
+    400068: lPinky1
+    400070: lPinky2
+    400072: lPinky3
+    400074: lPinky3_end
+    400076: lRing1
+    400078: lRing2
+    400080: lRing3
+    400082: lRing3_end
+    400084: lShin
+    400086: lShldr
+    400088: lSmallToe1
+    400090: lSmallToe1_end
+    400092: lSmallToe2
+    400094: lSmallToe2_end
+    400096: lSmallToe3
+    400098: lSmallToe3_end
+    400100: lSmallToe4
+    400102: lSmallToe4_end
+    400104: lThigh
+    400106: lThumb1
+    400108: lThumb2
+    400110: lThumb3
+    400112: lThumb3_end
+    400114: lToe
+    400116: neck
+    400118: pelvis
+    400120: rBigToe
+    400122: rBigToe_end
+    400124: rCarpal1
+    400126: rCarpal2
+    400128: rCollar
+    400130: Revolver
+    400132: rEye
+    400134: rEye_end
+    400136: rFoot
+    400138: rForeArm
+    400140: rHand
+    400142: rIndex1
+    400144: rIndex2
+    400146: rIndex3
+    400148: rIndex3_end
+    400150: rMid1
+    400152: rMid2
+    400154: rMid3
+    400156: rMid3_end
+    400158: rPectoral
+    400160: rPectoral_end
+    400162: rPinky1
+    400164: rPinky2
+    400166: rPinky3
+    400168: rPinky3_end
+    400170: rRing1
+    400172: rRing2
+    400174: rRing3
+    400176: rRing3_end
+    400178: rShin
+    400180: rShldr
+    400182: rSmallToe1
+    400184: rSmallToe1_end
+    400186: rSmallToe2
+    400188: rSmallToe2_end
+    400190: rSmallToe3
+    400192: rSmallToe3_end
+    400194: rSmallToe4
+    400196: rSmallToe4_end
+    400198: rThigh
+    400200: rThumb1
+    400202: rThumb2
+    400204: rThumb3
+    400206: rThumb3_end
+    400208: rToe
+    400210: tongue01
+    400212: tongue02
+    400214: tongue03
+    400216: tongue04
+    400218: tongue05
+    400220: tongueBase
+    400222: tongueTip
+    400224: tongueTip_end
+    400226: Trigger
+    400228: upperJaw
+    400230: upperJaw_end
+    400232: //RootNode
+    400234: Genesis2Male_001
+    2300000: Crane
+    2300002: Cylinder
+    2300004: CylinderRelease
+    2300006: EjectorRod
+    2300008: Hammer
+    2300010: Revolver
+    2300012: Trigger
+    2300014: Genesis2Male
+    3300000: Crane
+    3300002: Cylinder
+    3300004: CylinderRelease
+    3300006: EjectorRod
+    3300008: Hammer
+    3300010: Revolver
+    3300012: Trigger
+    3300014: Genesis2Male
+    4300000: Revolver
+    4300002: Hammer
+    4300004: Trigger
+    4300006: CylinderRelease
+    4300008: Crane
+    4300010: Cylinder
+    4300012: EjectorRod
+    4300014: G2FSimplifiedEyes_394
+    4300016: Genesis2Male
+    7400000: Revolver|Crane|Take 001|Layer 001
+    7400002: Revolver|Crane|Take 001|Layer 001.001
+    7400004: Revolver|Crane|Take 001|Layer 001.002
+    7400006: Revolver|Crane|Take 001|Layer 001.003
+    7400008: Revolver|CylinderRelease|Take 001|Layer 001
+    7400010: Revolver|CylinderRelease|Take 001|Layer 001.001
+    7400012: Revolver|CylinderRelease|Take 001|Layer 001.002
+    7400014: Revolver|CylinderRelease|Take 001|Layer 001.003
+    7400016: Revolver|Cylinder|Take 001|Layer 001
+    7400018: Revolver|Cylinder|Take 001|Layer 001.001
+    7400020: Revolver|Cylinder|Take 001|Layer 001.002
+    7400022: Revolver|Cylinder|Take 001|Layer 001.003
+    7400024: Revolver|EjectorRod|Take 001|Layer 001
+    7400026: Revolver|EjectorRod|Take 001|Layer 001.001
+    7400028: Revolver|EjectorRod|Take 001|Layer 001.002
+    7400030: Revolver|EjectorRod|Take 001|Layer 001.003
+    7400032: Revolver|Hammer|Take 001|Layer 001
+    7400034: Revolver|Hammer|Take 001|Layer 001.001
+    7400036: Revolver|Hammer|Take 001|Layer 001.002
+    7400038: Revolver|Hammer|Take 001|Layer 001.003
+    7400040: Revolver|Revolver|Take 001|Layer 001
+    7400042: Revolver|Revolver|Take 001|Layer 001.001
+    7400044: Revolver|Revolver|Take 001|Layer 001.002
+    7400046: Revolver|Revolver|Take 001|Layer 001.003
+    7400048: Revolver|Trigger|Take 001|Layer 001
+    7400050: Revolver|Trigger|Take 001|Layer 001.001
+    7400052: Revolver|Trigger|Take 001|Layer 001.002
+    7400054: Revolver|Trigger|Take 001|Layer 001.003
+    7400056: Hammer|Crane|Take 001|Layer 001
+    7400058: Hammer|Crane|Take 001|Layer 001.001
+    7400060: Hammer|Crane|Take 001|Layer 001.002
+    7400062: Hammer|Crane|Take 001|Layer 001.003
+    7400064: Hammer|CylinderRelease|Take 001|Layer 001
+    7400066: Hammer|CylinderRelease|Take 001|Layer 001.001
+    7400068: Hammer|CylinderRelease|Take 001|Layer 001.002
+    7400070: Hammer|CylinderRelease|Take 001|Layer 001.003
+    7400072: Hammer|Cylinder|Take 001|Layer 001
+    7400074: Hammer|Cylinder|Take 001|Layer 001.001
+    7400076: Hammer|Cylinder|Take 001|Layer 001.002
+    7400078: Hammer|Cylinder|Take 001|Layer 001.003
+    7400080: Hammer|EjectorRod|Take 001|Layer 001
+    7400082: Hammer|EjectorRod|Take 001|Layer 001.001
+    7400084: Hammer|EjectorRod|Take 001|Layer 001.002
+    7400086: Hammer|EjectorRod|Take 001|Layer 001.003
+    7400088: Hammer|Hammer|Take 001|Layer 001
+    7400090: Hammer|Hammer|Take 001|Layer 001.001
+    7400092: Hammer|Hammer|Take 001|Layer 001.002
+    7400094: Hammer|Hammer|Take 001|Layer 001.003
+    7400096: Hammer|Revolver|Take 001|Layer 001
+    7400098: Hammer|Revolver|Take 001|Layer 001.001
+    7400100: Hammer|Revolver|Take 001|Layer 001.002
+    7400102: Hammer|Revolver|Take 001|Layer 001.003
+    7400104: Hammer|Trigger|Take 001|Layer 001
+    7400106: Hammer|Trigger|Take 001|Layer 001.001
+    7400108: Hammer|Trigger|Take 001|Layer 001.002
+    7400110: Hammer|Trigger|Take 001|Layer 001.003
+    7400112: Trigger|Crane|Take 001|Layer 001
+    7400114: Trigger|Crane|Take 001|Layer 001.001
+    7400116: Trigger|Crane|Take 001|Layer 001.002
+    7400118: Trigger|Crane|Take 001|Layer 001.003
+    7400120: Trigger|CylinderRelease|Take 001|Layer 001
+    7400122: Trigger|CylinderRelease|Take 001|Layer 001.001
+    7400124: Trigger|CylinderRelease|Take 001|Layer 001.002
+    7400126: Trigger|CylinderRelease|Take 001|Layer 001.003
+    7400128: Trigger|Cylinder|Take 001|Layer 001
+    7400130: Trigger|Cylinder|Take 001|Layer 001.001
+    7400132: Trigger|Cylinder|Take 001|Layer 001.002
+    7400134: Trigger|Cylinder|Take 001|Layer 001.003
+    7400136: Trigger|EjectorRod|Take 001|Layer 001
+    7400138: Trigger|EjectorRod|Take 001|Layer 001.001
+    7400140: Trigger|EjectorRod|Take 001|Layer 001.002
+    7400142: Trigger|EjectorRod|Take 001|Layer 001.003
+    7400144: Trigger|Hammer|Take 001|Layer 001
+    7400146: Trigger|Hammer|Take 001|Layer 001.001
+    7400148: Trigger|Hammer|Take 001|Layer 001.002
+    7400150: Trigger|Hammer|Take 001|Layer 001.003
+    7400152: Trigger|Revolver|Take 001|Layer 001
+    7400154: Trigger|Revolver|Take 001|Layer 001.001
+    7400156: Trigger|Revolver|Take 001|Layer 001.002
+    7400158: Trigger|Revolver|Take 001|Layer 001.003
+    7400160: Trigger|Trigger|Take 001|Layer 001
+    7400162: Trigger|Trigger|Take 001|Layer 001.001
+    7400164: Trigger|Trigger|Take 001|Layer 001.002
+    7400166: Trigger|Trigger|Take 001|Layer 001.003
+    7400168: CylinderRelease|Crane|Take 001|Layer 001
+    7400170: CylinderRelease|Crane|Take 001|Layer 001.001
+    7400172: CylinderRelease|Crane|Take 001|Layer 001.002
+    7400174: CylinderRelease|Crane|Take 001|Layer 001.003
+    7400176: CylinderRelease|CylinderRelease|Take 001|Layer 001
+    7400178: CylinderRelease|CylinderRelease|Take 001|Layer 001.001
+    7400180: CylinderRelease|CylinderRelease|Take 001|Layer 001.002
+    7400182: CylinderRelease|CylinderRelease|Take 001|Layer 001.003
+    7400184: CylinderRelease|Cylinder|Take 001|Layer 001
+    7400186: CylinderRelease|Cylinder|Take 001|Layer 001.001
+    7400188: CylinderRelease|Cylinder|Take 001|Layer 001.002
+    7400190: CylinderRelease|Cylinder|Take 001|Layer 001.003
+    7400192: CylinderRelease|EjectorRod|Take 001|Layer 001
+    7400194: CylinderRelease|EjectorRod|Take 001|Layer 001.001
+    7400196: CylinderRelease|EjectorRod|Take 001|Layer 001.002
+    7400198: CylinderRelease|EjectorRod|Take 001|Layer 001.003
+    7400200: CylinderRelease|Hammer|Take 001|Layer 001
+    7400202: CylinderRelease|Hammer|Take 001|Layer 001.001
+    7400204: CylinderRelease|Hammer|Take 001|Layer 001.002
+    7400206: CylinderRelease|Hammer|Take 001|Layer 001.003
+    7400208: CylinderRelease|Revolver|Take 001|Layer 001
+    7400210: CylinderRelease|Revolver|Take 001|Layer 001.001
+    7400212: CylinderRelease|Revolver|Take 001|Layer 001.002
+    7400214: CylinderRelease|Revolver|Take 001|Layer 001.003
+    7400216: CylinderRelease|Trigger|Take 001|Layer 001
+    7400218: CylinderRelease|Trigger|Take 001|Layer 001.001
+    7400220: CylinderRelease|Trigger|Take 001|Layer 001.002
+    7400222: CylinderRelease|Trigger|Take 001|Layer 001.003
+    7400224: Crane|Crane|Take 001|Layer 001
+    7400226: Crane|Crane|Take 001|Layer 001.001
+    7400228: Crane|Crane|Take 001|Layer 001.002
+    7400230: Crane|Crane|Take 001|Layer 001.003
+    7400232: Crane|CylinderRelease|Take 001|Layer 001
+    7400234: Crane|CylinderRelease|Take 001|Layer 001.001
+    7400236: Crane|CylinderRelease|Take 001|Layer 001.002
+    7400238: Crane|CylinderRelease|Take 001|Layer 001.003
+    7400240: Crane|Cylinder|Take 001|Layer 001
+    7400242: Crane|Cylinder|Take 001|Layer 001.001
+    7400244: Crane|Cylinder|Take 001|Layer 001.002
+    7400246: Crane|Cylinder|Take 001|Layer 001.003
+    7400248: Crane|EjectorRod|Take 001|Layer 001
+    7400250: Crane|EjectorRod|Take 001|Layer 001.001
+    7400252: Crane|EjectorRod|Take 001|Layer 001.002
+    7400254: Crane|EjectorRod|Take 001|Layer 001.003
+    7400256: Crane|Hammer|Take 001|Layer 001
+    7400258: Crane|Hammer|Take 001|Layer 001.001
+    7400260: Crane|Hammer|Take 001|Layer 001.002
+    7400262: Crane|Hammer|Take 001|Layer 001.003
+    7400264: Crane|Revolver|Take 001|Layer 001
+    7400266: Crane|Revolver|Take 001|Layer 001.001
+    7400268: Crane|Revolver|Take 001|Layer 001.002
+    7400270: Crane|Revolver|Take 001|Layer 001.003
+    7400272: Crane|Trigger|Take 001|Layer 001
+    7400274: Crane|Trigger|Take 001|Layer 001.001
+    7400276: Crane|Trigger|Take 001|Layer 001.002
+    7400278: Crane|Trigger|Take 001|Layer 001.003
+    7400280: Cylinder|Crane|Take 001|Layer 001
+    7400282: Cylinder|Crane|Take 001|Layer 001.001
+    7400284: Cylinder|Crane|Take 001|Layer 001.002
+    7400286: Cylinder|Crane|Take 001|Layer 001.003
+    7400288: Cylinder|CylinderRelease|Take 001|Layer 001
+    7400290: Cylinder|CylinderRelease|Take 001|Layer 001.001
+    7400292: Cylinder|CylinderRelease|Take 001|Layer 001.002
+    7400294: Cylinder|CylinderRelease|Take 001|Layer 001.003
+    7400296: Cylinder|Cylinder|Take 001|Layer 001
+    7400298: Cylinder|Cylinder|Take 001|Layer 001.001
+    7400300: Cylinder|Cylinder|Take 001|Layer 001.002
+    7400302: Cylinder|Cylinder|Take 001|Layer 001.003
+    7400304: Cylinder|EjectorRod|Take 001|Layer 001
+    7400306: Cylinder|EjectorRod|Take 001|Layer 001.001
+    7400308: Cylinder|EjectorRod|Take 001|Layer 001.002
+    7400310: Cylinder|EjectorRod|Take 001|Layer 001.003
+    7400312: Cylinder|Hammer|Take 001|Layer 001
+    7400314: Cylinder|Hammer|Take 001|Layer 001.001
+    7400316: Cylinder|Hammer|Take 001|Layer 001.002
+    7400318: Cylinder|Hammer|Take 001|Layer 001.003
+    7400320: Cylinder|Revolver|Take 001|Layer 001
+    7400322: Cylinder|Revolver|Take 001|Layer 001.001
+    7400324: Cylinder|Revolver|Take 001|Layer 001.002
+    7400326: Cylinder|Revolver|Take 001|Layer 001.003
+    7400328: Cylinder|Trigger|Take 001|Layer 001
+    7400330: Cylinder|Trigger|Take 001|Layer 001.001
+    7400332: Cylinder|Trigger|Take 001|Layer 001.002
+    7400334: Cylinder|Trigger|Take 001|Layer 001.003
+    7400336: EjectorRod|Crane|Take 001|Layer 001
+    7400338: EjectorRod|Crane|Take 001|Layer 001.001
+    7400340: EjectorRod|Crane|Take 001|Layer 001.002
+    7400342: EjectorRod|Crane|Take 001|Layer 001.003
+    7400344: EjectorRod|CylinderRelease|Take 001|Layer 001
+    7400346: EjectorRod|CylinderRelease|Take 001|Layer 001.001
+    7400348: EjectorRod|CylinderRelease|Take 001|Layer 001.002
+    7400350: EjectorRod|CylinderRelease|Take 001|Layer 001.003
+    7400352: EjectorRod|Cylinder|Take 001|Layer 001
+    7400354: EjectorRod|Cylinder|Take 001|Layer 001.001
+    7400356: EjectorRod|Cylinder|Take 001|Layer 001.002
+    7400358: EjectorRod|Cylinder|Take 001|Layer 001.003
+    7400360: EjectorRod|EjectorRod|Take 001|Layer 001
+    7400362: EjectorRod|EjectorRod|Take 001|Layer 001.001
+    7400364: EjectorRod|EjectorRod|Take 001|Layer 001.002
+    7400366: EjectorRod|EjectorRod|Take 001|Layer 001.003
+    7400368: EjectorRod|Hammer|Take 001|Layer 001
+    7400370: EjectorRod|Hammer|Take 001|Layer 001.001
+    7400372: EjectorRod|Hammer|Take 001|Layer 001.002
+    7400374: EjectorRod|Hammer|Take 001|Layer 001.003
+    7400376: EjectorRod|Revolver|Take 001|Layer 001
+    7400378: EjectorRod|Revolver|Take 001|Layer 001.001
+    7400380: EjectorRod|Revolver|Take 001|Layer 001.002
+    7400382: EjectorRod|Revolver|Take 001|Layer 001.003
+    7400384: EjectorRod|Trigger|Take 001|Layer 001
+    7400386: EjectorRod|Trigger|Take 001|Layer 001.001
+    7400388: EjectorRod|Trigger|Take 001|Layer 001.002
+    7400390: EjectorRod|Trigger|Take 001|Layer 001.003
+    7400392: Default Take
+    9500000: //RootNode
+    13700000: G2FSimplifiedEyes_394
+    13700002: Genesis2Male
+    13700004: Revolver
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

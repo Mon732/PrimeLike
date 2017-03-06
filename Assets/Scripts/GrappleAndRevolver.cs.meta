@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: aff64e9053e1f4f4da869a96586f7bbb
+timeCreated: 1474998439
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - camera: {instanceID: 0}
+  - crosshair: {instanceID: 0}
+  - Hook: {fileID: 1000010798891960, guid: 9caf70e97a157f147a429c2adb6fb183, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

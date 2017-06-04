@@ -3,12 +3,39 @@ guid: 3ff60c976a32e564e8784598e515162d
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
+    100000: //RootNode
+    100002: Glock
+    100004: Hammer
+    100006: Magazine
+    100008: Safety
+    100010: Slide
+    100012: Trigger
+    400000: //RootNode
+    400002: Glock
+    400004: Hammer
+    400006: Magazine
+    400008: Safety
+    400010: Slide
+    400012: Trigger
+    2300000: Glock
+    2300002: Hammer
+    2300004: Magazine
+    2300006: Safety
+    2300008: Slide
+    2300010: Trigger
+    3300000: Glock
+    3300002: Hammer
+    3300004: Magazine
+    3300006: Safety
+    3300008: Slide
+    3300010: Trigger
     4300000: Glock
     4300002: Magazine
     4300004: Trigger
     4300006: Hammer
     4300008: Safety
     4300010: Slide
+    11100000: //RootNode
   materials:
     importMaterials: 1
     materialName: 0
@@ -55,6 +82,7 @@ ModelImporter:
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
+    serializedVersion: 2
     human: []
     skeleton: []
     armTwist: 0.5
@@ -65,7 +93,10 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 1
   humanoidOversampling: 1

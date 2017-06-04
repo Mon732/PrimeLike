@@ -83,25 +83,6 @@ public class Player : MonoBehaviour
             }
         }
 
-        //DEBUG CODE
-        if (Input.GetKeyDown(KeyCode.X))
-        {
-            Time.timeScale = 0.1f;
-        }
-
-        if (Input.GetKeyDown(KeyCode.M))
-        {
-            GameManager.Instance.SaveSettings();
-        }
-
-        if (Input.GetKeyDown(KeyCode.L))
-        {
-            GameManager.Instance.LoadSettings();
-        }
-	}
-
-    void FixedUpdate()
-    {
         if (movementVector == Vector3.zero)
         {
             rigidbody.velocity = new Vector3(0, rigidbody.velocity.y, 0);
@@ -125,7 +106,7 @@ public class Player : MonoBehaviour
             //Debug.Log("Velocity: " + rigidbody.velocity);
             //Debug.Log("movementVector: " + movementVector);
         }
-        
+
         Ray ray = new Ray(transform.position + new Vector3(0, 0.1f, 0), -transform.up);
         //int layerMask = 1 << 8;
 
@@ -139,9 +120,30 @@ public class Player : MonoBehaviour
                 //Debug.Log("On ground");
             }
         }
-        else if(onGround)
+        else if (onGround)
         {
             onGround = false;
         }
+
+        //DEBUG CODE
+        if (Input.GetKeyDown(KeyCode.X))
+        {
+            Time.timeScale = 0.1f;
+        }
+
+        if (Input.GetKeyDown(KeyCode.M))
+        {
+            GameManager.Instance.SaveSettings();
+        }
+
+        if (Input.GetKeyDown(KeyCode.L))
+        {
+            GameManager.Instance.LoadSettings();
+        }
+	}
+
+    void FixedUpdate()
+    {
+        
     }
 }
